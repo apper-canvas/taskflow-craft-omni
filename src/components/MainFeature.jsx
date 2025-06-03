@@ -95,13 +95,18 @@ const MainFeature = ({ tasks, categories, onTaskUpdate, onTaskAdd, onTaskDelete 
     }
   }
 
-  const handleDeleteTask = async (taskId) => {
+const handleDeleteTask = async (taskId) => {
     try {
-      await taskService.delete(taskId)
-      onTaskDelete(taskId)
-      toast.success('Task deleted successfully!')
-      setSelectedTask(null)
+      const success = await taskService.delete(taskId)
+      if (success) {
+        onTaskDelete(taskId)
+        toast.success('Task deleted successfully!')
+        setSelectedTask(null)
+      } else {
+        toast.error('Failed to delete task')
+      }
     } catch (error) {
+      console.error('Error deleting task:', error)
       toast.error('Failed to delete task')
     }
   }

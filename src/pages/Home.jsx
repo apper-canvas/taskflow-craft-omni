@@ -14,9 +14,10 @@ const Home = () => {
   const [activeFilter, setActiveFilter] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
 
-  useEffect(() => {
+useEffect(() => {
     const loadData = async () => {
       setLoading(true)
+      setError(null)
       try {
         const [tasksResult, categoriesResult] = await Promise.all([
           taskService.getAll(),
@@ -25,7 +26,10 @@ const Home = () => {
         setTasks(tasksResult || [])
         setCategories(categoriesResult || [])
       } catch (err) {
+        console.error('Failed to load data:', err)
         setError(err?.message || 'Failed to load data')
+        setTasks([])
+        setCategories([])
       } finally {
         setLoading(false)
       }
