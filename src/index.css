@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply text-surface-800 dark:text-surface-100;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  
+  * {
+    @apply border-surface-200 dark:border-surface-700;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-lg bg-white/70 dark:bg-surface-800/70;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .task-card {
+    @apply bg-white/60 dark:bg-surface-800/60 backdrop-blur-sm border border-white/20 dark:border-surface-700/20;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .task-card:hover {
+    @apply bg-white/80 dark:bg-surface-800/80 shadow-task-hover;
+    transform: translateY(-2px);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary to-primary-light text-white font-semibold px-6 py-3 rounded-xl shadow-soft hover:shadow-lg transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary/50;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-secondary to-secondary-light text-white font-semibold px-6 py-3 rounded-xl shadow-soft hover:shadow-lg transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-secondary/50;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 bg-white/70 dark:bg-surface-800/70 border border-surface-200 dark:border-surface-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all duration-200 backdrop-blur-sm;
+  }
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-surface-100 dark:bg-surface-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface-300 dark:bg-surface-600 rounded-full hover:bg-surface-400 dark:hover:bg-surface-500;
+}
+
+/* Task completion animation */
+.task-completed {
+  animation: checkBounce 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Priority indicator animations */
+.priority-high {
+  @apply bg-gradient-to-r from-red-400 to-red-500;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.priority-medium {
+  @apply bg-gradient-to-r from-yellow-400 to-yellow-500;
+}
+
+.priority-low {
+  @apply bg-gradient-to-r from-green-400 to-green-500;
+}

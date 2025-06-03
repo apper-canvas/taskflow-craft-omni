@@ -1,0 +1,167 @@
+[
+  {
+    "id": "1",
+    "title": "Complete project proposal",
+    "description": "Finalize the Q4 project proposal including budget allocation, timeline, and resource requirements for the new client acquisition initiative.",
+    "completed": false,
+    "createdAt": "2024-01-15T09:00:00Z",
+    "dueDate": "2024-01-22T17:00:00Z",
+    "priority": "high",
+    "category": "Work",
+    "tags": ["proposal", "deadline", "client"]
+  },
+  {
+    "id": "2",
+    "title": "Review marketing campaign analytics",
+    "description": "Analyze the performance metrics from last month's digital marketing campaigns and prepare insights for the team meeting.",
+    "completed": true,
+    "createdAt": "2024-01-10T11:30:00Z",
+    "dueDate": "2024-01-18T12:00:00Z",
+    "priority": "medium",
+    "category": "Marketing",
+    "tags": ["analytics", "review", "metrics"]
+  },
+  {
+    "id": "3",
+    "title": "Update team onboarding documentation",
+    "description": "Revise the new employee onboarding guide to include recent policy changes and streamline the process for HR efficiency.",
+    "completed": false,
+    "createdAt": "2024-01-12T14:15:00Z",
+    "dueDate": "2024-01-25T16:00:00Z",
+    "priority": "medium",
+    "category": "HR",
+    "tags": ["documentation", "onboarding", "policies"]
+  },
+  {
+    "id": "4",
+    "title": "Schedule quarterly team building event",
+    "description": "Organize and coordinate the Q1 team building activities, including venue booking, catering arrangements, and activity planning.",
+    "completed": false,
+    "createdAt": "2024-01-08T10:45:00Z",
+    "dueDate": "2024-02-01T14:00:00Z",
+    "priority": "low",
+    "category": "Events",
+    "tags": ["team-building", "quarterly", "coordination"]
+  },
+  {
+    "id": "5",
+    "title": "Conduct code review for mobile app",
+    "description": "Perform comprehensive code review for the new mobile application features, focusing on performance optimization and security best practices.",
+    "completed": false,
+    "createdAt": "2024-01-14T08:20:00Z",
+    "dueDate": "2024-01-19T18:00:00Z",
+    "priority": "high",
+    "category": "Development",
+    "tags": ["code-review", "mobile", "security"]
+  },
+  {
+    "id": "6",
+    "title": "Prepare monthly financial report",
+    "description": "Compile and analyze financial data for December, including expense tracking, revenue analysis, and budget variance reports.",
+    "completed": true,
+    "createdAt": "2024-01-05T09:30:00Z",
+    "dueDate": "2024-01-15T17:00:00Z",
+    "priority": "high",
+    "category": "Finance",
+    "tags": ["financial", "monthly", "analysis"]
+  },
+  {
+    "id": "7",
+    "title": "Design user interface mockups",
+    "description": "Create wireframes and high-fidelity mockups for the new customer dashboard, incorporating user feedback and accessibility standards.",
+    "completed": false,
+    "createdAt": "2024-01-11T13:00:00Z",
+    "dueDate": "2024-01-28T15:00:00Z",
+    "priority": "medium",
+    "category": "Design",
+    "tags": ["UI", "mockups", "dashboard"]
+  },
+  {
+    "id": "8",
+    "title": "Research competitor pricing strategies",
+    "description": "Conduct market research on competitor pricing models and strategies to inform our upcoming product pricing decisions.",
+    "completed": false,
+    "createdAt": "2024-01-09T11:15:00Z",
+    "dueDate": "2024-01-30T12:00:00Z",
+    "priority": "medium",
+    "category": "Research",
+    "tags": ["research", "pricing", "competitors"]
+  },
+  {
+    "id": "9",
+    "title": "Set up automated backup system",
+    "description": "Implement and configure automated backup solutions for critical business data, ensuring compliance with data retention policies.",
+    "completed": false,
+    "createdAt": "2024-01-13T16:45:00Z",
+    "dueDate": "2024-01-26T17:00:00Z",
+    "priority": "high",
+    "category": "IT",
+    "tags": ["backup", "automation", "data-security"]
+  },
+  {
+    "id": "10",
+    "title": "Plan product launch strategy",
+    "description": "Develop comprehensive go-to-market strategy for the new product line, including marketing channels, timeline, and success metrics.",
+    "completed": false,
+    "createdAt": "2024-01-07T12:30:00Z",
+    "dueDate": "2024-02-05T16:00:00Z",
+    "priority": "high",
+    "category": "Product",
+    "tags": ["launch", "strategy", "go-to-market"]
+  },
+  {
+    "id": "11",
+    "title": "Update customer support FAQ",
+    "description": "Review and update the customer support knowledge base with frequently asked questions based on recent support ticket trends.",
+    "completed": true,
+    "createdAt": "2024-01-06T14:20:00Z",
+    "dueDate": "2024-01-16T13:00:00Z",
+    "priority": "low",
+    "category": "Support",
+    "tags": ["FAQ", "knowledge-base", "customer-support"]
+  },
+  {
+    "id": "12",
+    "title": "Optimize database performance",
+    "description": "Analyze database queries and implement performance optimizations to improve application response times and reduce server load.",
+    "completed": false,
+    "createdAt": "2024-01-04T15:10:00Z",
+    "dueDate": "2024-01-24T18:00:00Z",
+    "priority": "medium",
+    "category": "Development",
+    "tags": ["database", "performance", "optimization"]
+  },
+  {
+    "id": "13",
+    "title": "Create training materials for new software",
+    "description": "Develop comprehensive training documentation and video tutorials for the recently implemented project management software.",
+    "completed": false,
+    "createdAt": "2024-01-16T10:00:00Z",
+    "dueDate": "2024-02-02T14:00:00Z",
+    "priority": "medium",
+    "category": "Training",
+    "tags": ["training", "documentation", "software"]
+  },
+  {
+    "id": "14",
+    "title": "Audit security protocols",
+    "description": "Conduct comprehensive security audit of current systems and protocols, identifying potential vulnerabilities and improvement areas.",
+    "completed": false,
+    "createdAt": "2024-01-03T08:45:00Z",
+    "dueDate": "2024-01-31T17:00:00Z",
+    "priority": "high",
+    "category": "Security",
+    "tags": ["security", "audit", "protocols"]
+  },
+  {
+    "id": "15",
+    "title": "Schedule client feedback sessions",
+    "description": "Coordinate and schedule quarterly client feedback sessions to gather insights on service quality and identify improvement opportunities.",
+    "completed": false,
+    "createdAt": "2024-01-02T13:25:00Z",
+    "dueDate": "2024-01-29T15:00:00Z",
+    "priority": "low",
+    "category": "Client Relations",
+    "tags": ["feedback", "client", "quarterly"]
+  }
+]

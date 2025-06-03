@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1",
+    "name": "Alex Johnson",
+    "email": "alex.johnson@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "light",
+      "notifications": true,
+      "defaultView": "list",
+      "timeFormat": "12h"
+    },
+    "createdAt": "2023-11-15T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true,
+      "defaultView": "kanban",
+      "timeFormat": "24h"
+    },
+    "createdAt": "2023-10-22T14:15:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Michael Rodriguez",
+    "email": "michael.r@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "light",
+      "notifications": false,
+      "defaultView": "calendar",
+      "timeFormat": "12h"
+    },
+    "createdAt": "2023-12-03T09:45:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Emily Davis",
+    "email": "emily.davis@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "auto",
+      "notifications": true,
+      "defaultView": "list",
+      "timeFormat": "24h"
+    },
+    "createdAt": "2023-09-18T16:20:00Z"
+  },
+  {
+    "id": "5",
+    "name": "David Kim",
+    "email": "david.kim@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true,
+      "defaultView": "kanban",
+      "timeFormat": "12h"
+    },
+    "createdAt": "2023-11-28T11:10:00Z"
+  },
+  {
+    "id": "6",
+    "name": "Lisa Thompson",
+    "email": "lisa.thompson@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "light",
+      "notifications": true,
+      "defaultView": "calendar",
+      "timeFormat": "24h"
+    },
+    "createdAt": "2023-10-08T13:55:00Z"
+  },
+  {
+    "id": "7",
+    "name": "Robert Wilson",
+    "email": "robert.wilson@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "auto",
+      "notifications": false,
+      "defaultView": "list",
+      "timeFormat": "12h"
+    },
+    "createdAt": "2023-12-12T08:30:00Z"
+  },
+  {
+    "id": "8",
+    "name": "Amanda Foster",
+    "email": "amanda.foster@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "dark",
+      "notifications": true,
+      "defaultView": "kanban",
+      "timeFormat": "24h"
+    },
+    "createdAt": "2023-09-25T15:40:00Z"
+  },
+  {
+    "id": "9",
+    "name": "James Parker",
+    "email": "james.parker@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "light",
+      "notifications": true,
+      "defaultView": "calendar",
+      "timeFormat": "12h"
+    },
+    "createdAt": "2023-11-05T12:25:00Z"
+  },
+  {
+    "id": "10",
+    "name": "Rachel Green",
+    "email": "rachel.green@taskflow.com",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+    "preferences": {
+      "theme": "auto",
+      "notifications": true,
+      "defaultView": "list",
+      "timeFormat": "24h"
+    },
+    "createdAt": "2023-10-14T17:05:00Z"
+  }
+]
